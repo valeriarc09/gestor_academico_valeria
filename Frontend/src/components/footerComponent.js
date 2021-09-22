@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Form from 'react-bootstrap/Form'
 
 function Footer(props){
     return(
@@ -28,6 +29,7 @@ function Footer(props){
                          correo@email.com</a>
                     </address>
                 </div>
+                import Form from 'react-bootstrap/Form'
                 <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
                         <a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a>
@@ -43,6 +45,15 @@ function Footer(props){
                 <div className="col-auto">
                     <p>© Copyright 2021 Universidad de la Calle</p>
                 </div>
+                <>
+  <Form.Label htmlFor="exampleColorInput">Color picker</Form.Label>
+  <Form.Control
+    type="color"
+    id="exampleColorInput"
+    defaultValue="#563d7c"
+    title="Choose your color"
+  />
+</>
             </div>
         </div>
     </div>
