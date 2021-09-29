@@ -2,14 +2,18 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Form from 'react-bootstrap/Form'
 
+
 function Footer(props){
-    return(
+    return (
         <div className="footer">
         <div className="container">
+               <h1 style={{ color: 'purple' }}>BIENVENIDOS A LA UNIVERSIDAD DE LA CALLE </h1>
             <div className="row justify-content-center">             
                 <div className="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
+               
+                    <h2>Enlaces </h2>
                     <ul className="list-unstyled">
+                
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/admin">Adminstrador</Link></li>
                         <li><Link to="/teacher">Profesor</Link></li>
@@ -18,7 +22,7 @@ function Footer(props){
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                    <h2>Nuestra dirección</h2>
                     <address>
 		              Su dirección<br />
 		              Barrio<br />
@@ -29,15 +33,10 @@ function Footer(props){
                          correo@email.com</a>
                     </address>
                 </div>
-                import Form from 'react-bootstrap/Form'
-                <div className="col-12 col-sm-4 align-self-center">
+             <div className="text-center"
+                className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
-                        <a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a>
-                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
-                        <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
-                        <a className="btn btn-social-icon" href="mailto:"><i className="fa fa-envelope-o"></i></a>
+                       
                     </div>
                 </div>
             </div>
@@ -48,16 +47,14 @@ function Footer(props){
                 <>
   <Form.Label htmlFor="exampleColorInput">Color picker</Form.Label>
   <Form.Control
-    type="color"
-    id="exampleColorInput"
-    defaultValue="#563d7c"
-    title="Choose your color"
+    
+    
   />
 </>
             </div>
         </div>
     </div>
-    );
+);
 }
 
 
