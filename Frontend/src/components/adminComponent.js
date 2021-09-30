@@ -25,12 +25,12 @@ class AdminComponent extends Component {
 
   async crearPersona(){
     await axios.post('http://localhost:4000/api/admin/crearPersona' ,{
-      DocIdent: this.state.DocIdent,
-      nombre: this.state.nombre,
-      apellido: this.state.apellido,
-      correoElectronico: this.state.correoElectronico,
-      celular: this.state.celular,
-      fechaNac: this.state.fechaNac,
+      Docid: this.state.DocIdent,
+      name: this.state.nombre,
+      LastName: this.state.apellido,
+     email: this.state.correoElectronico,
+     mobile: this.state.celular,
+      Date_Born: this.state.fechaNac,
       nacionalidad: this.state.nacionalidad,
       genero: this.state.genero,
       direccion: this.state.direccion

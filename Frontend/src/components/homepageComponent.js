@@ -50,6 +50,7 @@ class homepageComponent extends Component {
   </Carousel.Item>
 </Carousel>
    
+   
       </div>
     )
   }
